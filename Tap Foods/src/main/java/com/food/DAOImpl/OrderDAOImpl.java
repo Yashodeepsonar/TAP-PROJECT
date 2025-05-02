@@ -21,7 +21,7 @@ public class OrderDAOImpl implements OrderDAO {
 	Scanner scan = new Scanner(System.in);
 	String url = "jdbc:mysql://localhost:3306/food_delivery_app";
 	String user = "root";
-	String pass = "root";
+	String pass = "yash";
 	Connection connection = null;
 	String insertQuery = "INSERT INTO `order` (`order_date`,`total_amount`,`status`,`payment_method`) VALUES (?,?,?,?)";
 	String retreiveQuery = "SELECT * FROM `order` WHERE `order_id` = ?";
