@@ -18,7 +18,7 @@ public class UserDAOImpl implements UserDAO {
 	Scanner scan = new Scanner(System.in);
 	String url = "jdbc:mysql://localhost:3306/food_delivery_app";
 	String user = "root";
-	String pass = "root";
+	String pass = "yash";
 	Connection connection = null;
 	String insertQuery = "INSERT INTO `user` (`user_name`,`password`,`email`,`address`,`role`) VALUES (?,?,?,?,?)";
 	String retreiveQuery = "SELECT * FROM `user` WHERE `email` = ?";
