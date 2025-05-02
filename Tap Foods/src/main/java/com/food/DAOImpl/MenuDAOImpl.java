@@ -18,7 +18,7 @@ public class MenuDAOImpl implements MenuDAO{
 	Scanner scan = new Scanner(System.in);
 	String url = "jdbc:mysql://localhost:3306/food_delivery_app";
 	String user = "root";
-	String pass = "root";
+	String pass = "yash";
 	Connection connection = null;
 	String insertQuery = "INSERT INTO `menu` (`item_name`,`description`,`price`,`is_available`) VALUES (?,?,?,?)";
 	String retreiveQuery = "SELECT * FROM `menu` WHERE `menu_id` = ?";
