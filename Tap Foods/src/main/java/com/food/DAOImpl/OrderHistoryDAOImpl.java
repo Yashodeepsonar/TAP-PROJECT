@@ -19,7 +19,7 @@ public class OrderHistoryDAOImpl implements OrderHistoryDAO{
 	Scanner scan = new Scanner(System.in);
 	String url = "jdbc:mysql://localhost:3306/food_delivery_app";
 	String user = "root";
-	String pass = "root";
+	String pass = "yash";
 	Connection connection = null;
 	String insertQuery = "INSERT INTO `order_history` (`order_date`,`total_amount`,`status`) VALUES (?,?,?)";
 	String retreiveQuery = "SELECT * FROM `order_history` WHERE `order_history_id` = ?";
