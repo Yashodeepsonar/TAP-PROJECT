@@ -18,7 +18,7 @@ public class RestuarantDAOImpl implements RestaurantDAO{
 	Scanner scan = new Scanner(System.in);
 	String url = "jdbc:mysql://localhost:3306/food_delivery_app";
 	String user = "root";
-	String pass = "root";
+	String pass = "yash";
 	Connection connection = null;
 	String insertQuery = "INSERT INTO `restaurant` (`restaurant_name`,`cousine_type`,`delivery_time`,`address`,`rating`,`is_active`) VALUES (?,?,?,?,?,?)";
 	String retreiveQuery = "SELECT * FROM `restaurant` WHERE `restaurant_id` = ?";
